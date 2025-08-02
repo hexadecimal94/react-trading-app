@@ -41,28 +41,28 @@ const App: React.FC = () => {
     };
 
     return (
-      // <>
-      //   <Grid container spacing={2}>
-      //     <Grid size={{ xs: 6, md: 8 }}>
-      //       <Item>xs=6 md=8</Item>
-      //     </Grid>
-      //     <Grid size={{ xs: 6, md: 4 }}>
-      //       <Item>xs=6 md=4</Item>
-      //     </Grid>
-      //     <Grid size={{ xs: 6, md: 4 }}>
-      //       <Item>xs=6 md=4</Item>
-      //     </Grid>
-      //     <Grid size={{ xs: 6, md: 8 }}>
-      //       <Item>xs=6 md=8</Item>
-      //     </Grid>
-      //   </Grid>
-      //   <Box sx={{ padding: 6 }}>
-      //       <ButtonGroup variant="outlined" aria-label="Loading button group">
-      //         <Button>One</Button>
-      //         <Button>Two</Button>
-      //         <Button>Three</Button>
-      //       </ButtonGroup>
-      //   </Box>
+      <>
+        <Grid container spacing={2}>
+          <Grid size={{ xs: 6, md: 8 }}>
+            <Item>xs=6 md=8</Item>
+          </Grid>
+          <Grid size={{ xs: 6, md: 4 }}>
+            <Item>xs=6 md=4</Item>
+          </Grid>
+          <Grid size={{ xs: 6, md: 4 }}>
+            <Item>xs=6 md=4</Item>
+          </Grid>
+          <Grid size={{ xs: 6, md: 8 }}>
+            <Item>xs=6 md=8</Item>
+          </Grid>
+        </Grid>
+        <Box sx={{ padding: 6 }}>
+            <ButtonGroup variant="outlined" aria-label="Loading button group">
+              <Button>One</Button>
+              <Button>Two</Button>
+              <Button>Three</Button>
+            </ButtonGroup>
+        </Box>
           
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 4 }}>
             <Typography variant="h4" gutterBottom>
@@ -100,7 +100,7 @@ const App: React.FC = () => {
                 </Table>
             </TableContainer>
         </Box>
-      // </>
+       </>
     );
 };
 
